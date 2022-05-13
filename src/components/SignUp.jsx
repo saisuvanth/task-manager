@@ -19,7 +19,7 @@ const SignUp = () => {
 		createUserWithEmailAndPassword(auth, userEmail, userPassword).then(res => {
 			if (res) {
 				console.log(auth.currentUser);
-				sendEmailVerification(auth.currentUser, { url: 'https://localhost:3000/login' }).then(res1 => {
+				sendEmailVerification(auth.currentUser, { url: 'https://incomparable-travesseiro-b4de5b.netlify.app/login' }).then(res1 => {
 					setMessage({ message: "Verification Email has been sent", type: 'sent' });
 					console.log('database init')
 					const mydoc = doc(firestore, `users/${res.user.uid}`);
