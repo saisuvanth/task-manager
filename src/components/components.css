@@ -1,0 +1,106 @@
+.main {
+	background-color: #1C437C;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.my-form {
+	width: 50%;
+	color: white;
+}
+
+.submit {
+	padding-top: 3rem;
+}
+
+.forgot-passwd {
+	padding-top: 1rem;
+	color: white;
+	float: right;
+	text-decoration: none;
+}
+
+.form-label {
+	margin-bottom: 0px;
+}
+
+.forgot-passwd:hover {
+	color: wheat;
+	text-decoration: underline;
+}
+
+.errormsg {
+	color: red;
+}
+
+.my-navbar {
+	background-color: #1C437C;
+	color: white;
+}
+
+.navbar-title {
+	font-size: larger;
+	margin-left: 1rem;
+	font-weight: 600;
+}
+
+.avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+
+.task-heading {
+	display: flex;
+	justify-content: flex-start;
+	color: gray;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.task-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 0px;
+}
+
+.my-card {
+	border-color: #1C437C;
+	color: #1c2c44;
+}
+
+.details {
+	font-size: 15px;
+	color: #537ab5;
+}
+
+.date {
+	font-size: 12px;
+	font-weight: 600;
+	color: #1d4c94;
+}
+
+.add-button {
+	width: fit-content;
+	margin-left: 0.5rem;
+	height: 40px;
+	background-color: #0758d3;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+
+.super-add-button {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	height: 50px;
+}
+
+.super-add-button,
+.add-button {
+	border-radius: 50%;
+}
