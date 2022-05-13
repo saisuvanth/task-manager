@@ -88,7 +88,7 @@ const MyModal = ({ show, setShow, tasks, flag, setTasks }) => {
 									tasks?.map((otask, ind) => {
 										if (ind !== parseInt(flag[0])) {
 											return <option value={ind} key={ind}>{otask.name}</option>
-										}
+										} else return null;
 									})
 								}
 							</Form.Select>
